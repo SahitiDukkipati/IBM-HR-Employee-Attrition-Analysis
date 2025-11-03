@@ -1,11 +1,9 @@
-# IBM-HR-Employee-Attrition-Analysis
-
+# IBM-HR Employee Attrition Analysis
 
 This project analyzes the **IBM HR Analytics Employee Attrition & Performance** dataset (from Kaggle) to understand what factors influence employee turnover. The goal is to identify key patterns behind attrition and visualize them in a clear, data-driven way.
-
 ---
 
-### 🗂 Dataset
+###  Dataset
 
 **Source:** [Kaggle - IBM HR Analytics Employee Attrition & Performance]([https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset/data))
 **Description:**
@@ -13,14 +11,14 @@ The dataset includes information about employees’ age, department, job role, e
 
 ---
 
-### ⚙️ Tools Used
+###  Tools Used
 
 * **SQL Server:** for querying and analyzing structured data
 * **Power BI:** for building interactive dashboards and data visualization
 
 ---
 
-### 🧩 Project Workflow
+###  Project Workflow
 
 1. **Data Preparation:**
 
@@ -45,7 +43,7 @@ The dataset includes information about employees’ age, department, job role, e
 
 ---
 
-### 📁 Repository Structure
+###  Repository Structure
 
 ```
 IBM-HR-Employee-Attrition-Analysis/
