@@ -52,10 +52,10 @@ IBM-HR Employee Attrition Analysis/
 │   └── IBM_HR_Employee_Attrition.csv
 │
 ├── sql/
-│   └── Employee_Data.sql
+│   └── Employee data.sql
 
 ├── powerbi/
-│   └── Employee_Data.pbix
+│   └── Employee data.pbix
        Employee Data Visualization.png
 │
 └── README.md
