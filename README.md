@@ -46,13 +46,13 @@ The dataset includes information about employees’ age, department, job role, e
 ###  Repository Structure
 
 ```
-IBM-HR-Employee-Attrition-Analysis/
+IBM-HR Employee Attrition Analysis/
 │
 ├── data/
 │   └── IBM_HR_Employee_Attrition.csv
 │
 ├── sql/
-│   └── Employee_Datasql
+│   └── Employee_Data.sql
 
 ├── powerbi/
 │   └── Employee_Data.pbix
