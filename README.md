@@ -60,4 +60,5 @@ IBM-HR Employee Attrition Analysis/
 │
 └── README.md
 ```
+![Dashboard Preview](https://github.com/SahitiDukkipati/Walmart-Sales-Analysis/blob/6ef1e18565c932aa12bbe068c8df810dc9679b7f/walmart%20sales%20per%20store%20and%20year.png)
 
