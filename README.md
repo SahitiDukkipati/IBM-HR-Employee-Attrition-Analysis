@@ -91,4 +91,3 @@ IBM-HR Employee Attrition Analysis/
 ```
 
 
- ![Dashboard Preview](https://github.com/SahitiDukkipati/Yahoo-Finance-Dataset/blob/d357dcc7a5dc789dabf0f7b1dab45b1ae81c5f91/dashboard_preview.png)
