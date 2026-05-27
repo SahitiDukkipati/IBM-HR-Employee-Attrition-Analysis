@@ -86,7 +86,9 @@ IBM-HR Employee Attrition Analysis/
 ---
 
 > **Dataset Credit:** [Pavan Subhash — Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset). This project was completed as part of a personal data analytics portfolio to demonstrate end-to-end analytical thinking — from raw HR data to people-focused business insights.
+
+> git![Dashboard Preview](https://github.com/SahitiDukkipati/IBM-HR-Employee-Attrition-Analysis/blob/28615d1a9a48ba8fc47932ba91dbd25539b68e16/Employee%20data%20visualization.png))
 ```
 
-git![Dashboard Preview](https://github.com/SahitiDukkipati/IBM-HR-Employee-Attrition-Analysis/blob/f577c328c63e7c5837a263ddde3943f4ad346982/Employee%20data%20visualization.png)
 
+ ![Dashboard Preview](https://github.com/SahitiDukkipati/Yahoo-Finance-Dataset/blob/d357dcc7a5dc789dabf0f7b1dab45b1ae81c5f91/dashboard_preview.png)
