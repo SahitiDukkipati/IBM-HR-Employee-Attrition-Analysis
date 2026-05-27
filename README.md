@@ -1,64 +1,92 @@
-# IBM-HR Employee Attrition Analysis
+# 👥 IBM HR Employee Attrition Analysis
 
-This project analyzes the **IBM HR Analytics Employee Attrition & Performance** dataset (from Kaggle) to understand what factors influence employee turnover. The goal is to identify key patterns behind attrition and visualize them in a clear, data-driven way.
----
-
-###  Dataset
-
-**Source:** [Kaggle - IBM HR Analytics Employee Attrition & Performance]([https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset/data))
-**Description:**
-The dataset includes information about employees’ age, department, job role, education field, income, and whether they’ve left the company.
+> Exploring what drives employees to leave — a data-driven investigation into IBM's HR dataset using SQL and Power BI to uncover attrition patterns, risk factors, and retention insights.
 
 ---
 
-###  Tools Used
+## 📌 Project Overview
 
-* **SQL Server:** for querying and analyzing structured data
-* **Power BI:** for building interactive dashboards and data visualization
-
----
-
-###  Project Workflow
-
-1. **Data Preparation:**
-
-   * Imported dataset into SQL Server
-
-
-2. **SQL Analysis:**
-
-   * Wrote queries to analyze attrition by age, department, and salary
-   * Identified high-risk groups (e.g., departments with higher turnover rates)
-
-3. **Power BI Visualization:**
-
-   * Performed data transformations in Power Query
-   * Created dashboards showing attrition rate, income trends, and department-wise insights
-
-4. **Insights:**
-
-   * Higher attrition observed among younger employees and lower-income groups
-   * Sales department showed the highest attrition rate
-   * Work-life balance and job satisfaction had visible impact on retention
+This project analyzes the **IBM HR Analytics Employee Attrition & Performance** dataset (sourced from Kaggle) to understand what factors influence employee turnover. By combining structured SQL analysis with interactive Power BI dashboards, the project surfaces key patterns behind attrition — helping translate HR data into actionable retention strategies.
 
 ---
 
-###  Repository Structure
+## 📁 Dataset
+
+| Detail | Info |
+|--------|------|
+| **Source** | [Kaggle — IBM HR Analytics Employee Attrition & Performance](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset) |
+| **Description** | Employee demographics, job roles, income levels, satisfaction scores, and attrition status |
+| **Key Fields** | Age, Department, Job Role, Education Field, Monthly Income, Attrition |
+
+---
+
+## 🔧 Tools & Technologies
+
+| Tool | Purpose |
+|------|---------|
+| **SQL Server** | Querying and analyzing structured HR data |
+| **Power BI** | Interactive dashboards and data visualization |
+| **Power Query** | Data transformation and preparation |
+
+---
+
+## 📂 Repository Structure
 
 ```
 IBM-HR Employee Attrition Analysis/
 │
 ├── data/
-│   └── IBM_HR_Employee_Attrition.csv
+│   └── IBM_HR_Employee_Attrition.csv       # Raw dataset from Kaggle
 │
 ├── sql/
-│   └── Employee data.sql
-
+│   └── Employee data.sql                   # SQL queries and analysis
+│
 ├── powerbi/
-│   └── Employee data.pbix
-       Employee Data Visualization.png
+│   ├── Employee data.pbix                  # Power BI dashboard file
+│   └── Employee Data Visualization.png     # Dashboard screenshot
 │
 └── README.md
 ```
-![Dashboard Preview](https://github.com/SahitiDukkipati/IBM-HR-Employee-Attrition-Analysis/blob/f577c328c63e7c5837a263ddde3943f4ad346982/Employee%20data%20visualization.png)
+
+---
+
+## 🚀 Project Workflow
+
+### 1. 🗄️ Data Preparation
+- Imported the CSV dataset into **SQL Server**
+- Reviewed schema, checked for nulls, and validated data integrity
+
+### 2. 🔍 SQL Analysis
+- Queried attrition rates segmented by **age, department, and salary band**
+- Identified **high-risk groups** — departments and demographics with elevated turnover
+- Ranked job roles and income brackets by attrition frequency
+
+### 3. 📊 Power BI Visualization
+- Performed data transformations using **Power Query**
+- Built interactive dashboards covering:
+  - Overall **attrition rate** across the organization
+  - **Income trends** vs. attrition correlation
+  - **Department-wise breakdown** of employee turnover
+
+---
+
+## 📈 Key Insights
+
+- 👶 **Younger employees** showed significantly higher attrition rates compared to senior staff
+- 💰 **Lower-income groups** were disproportionately more likely to leave the organization
+- 🏢 **Sales department** recorded the highest attrition rate across all departments
+- ⚖️ **Work-life balance and job satisfaction** had a visible and measurable impact on employee retention
+
+---
+
+## 💡 Skills Demonstrated
+
+`SQL Server` &nbsp;|&nbsp; `Power BI` &nbsp;|&nbsp; `Power Query` &nbsp;|&nbsp; `Data Cleaning` &nbsp;|&nbsp; `HR Analytics` &nbsp;|&nbsp; `Attrition Analysis` &nbsp;|&nbsp; `Data Visualization` &nbsp;|&nbsp; `Exploratory Data Analysis`
+
+---
+
+> **Dataset Credit:** [Pavan Subhash — Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset). This project was completed as part of a personal data analytics portfolio to demonstrate end-to-end analytical thinking — from raw HR data to people-focused business insights.
+```
+
+git![Dashboard Preview](https://github.com/SahitiDukkipati/IBM-HR-Employee-Attrition-Analysis/blob/f577c328c63e7c5837a263ddde3943f4ad346982/Employee%20data%20visualization.png)
 
